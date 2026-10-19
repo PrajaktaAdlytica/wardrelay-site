@@ -31,7 +31,6 @@
  root.classList.add('journey-ready');
  const cards=$$('.module-directory-card'),ctas=$$('.page-cta'),articleSections=$$('.article-body>section');
  const progress=$('.walk-page-progress span'),trail=$('.walk-trail path'),hero=$('.page-hero'),art=$('.page-hero-art');
- const camera=window.WardMotion.camera(photos,trail);
  let scheduled=false;
  function render(){
   scheduled=false;if(document.hidden)return;
@@ -39,12 +38,7 @@
   const height=innerHeight,y=scrollY,max=Math.max(1,document.documentElement.scrollHeight-height),global=clamp(y/max);
   progress.style.transform=`scaleX(${global})`;
   // Broad cross-dissolves connect corridor, junction and review room.
-  if(!still){
-   const span=clamp(height*1.6/max,.08,.18);
-   const t=smooth(clamp((global-.28)/span)),u=smooth(clamp((global-.68)/span));
-   camera.set(global,t,u);
-   if(art&&hero&&innerWidth>900){const r=hero.getBoundingClientRect();art.style.setProperty('--hero-drift',Math.min(28,Math.max(0,-r.top)*.045)+'px');}
-  }
+  if(!still){const t=smooth(clamp((global-.34)/.055)),u=smooth(clamp((global-.76)/.055));photos[0].style.opacity=1;photos[1].style.opacity=t;photos[2].style.opacity=u;photos.forEach((p,i)=>p.style.transform=`scale(${1.035+global*.045}) translate3d(0,${-global*1.4+i*.15}%,0)`);if(trail)trail.style.strokeDashoffset=String(.9-global*.9);if(art&&hero&&innerWidth>900){const r=hero.getBoundingClientRect();art.style.setProperty('--hero-drift',Math.min(45,Math.max(0,-r.top)*.08)+'px');}}
   $('.walk-environment').classList.toggle('story-view',workflows.some(w=>{const r=w.section.getBoundingClientRect();return r.top<height*.4&&r.bottom>height*.6;}));
   workflows.forEach(w=>{let index=0,nearest=Infinity;w.items.forEach((item,i)=>{const r=item.getBoundingClientRect(),distance=Math.abs(r.top+r.height*.4-height*.52);if(distance<nearest){nearest=distance;index=i;}});w.items.forEach((item,i)=>item.classList.toggle('is-current',i===index));w.number.textContent=String(index+1).padStart(2,'0');w.bar.style.transform=`scaleX(${(index+1)/w.items.length})`;});
   cards.forEach(card=>{const r=card.getBoundingClientRect();card.classList.toggle('is-current',r.top<height*.7&&r.bottom>height*.35);});
