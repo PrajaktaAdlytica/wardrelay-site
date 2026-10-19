@@ -11,7 +11,7 @@ Editing
 Supporting page content and shared navigation/footer: source/build_pages.py.
 Regenerate supporting HTML with: python3 source/build_pages.py
 Supporting page styles and behavior: dist/site.css and dist/site.js.
-Homepage: dist/index.html, dist/styles.css, dist/app.js, dist/motion-v2.css and dist/motion-v2.js.
+Homepage: dist/index.html, dist/styles.css, dist/app.js, dist/motion-v2.css, dist/motion-v2.js, dist/home-walk.css and dist/home-walk.js.
 The generator preserves the homepage visual sections and updates its shared shell. It does not overwrite site.css or site.js.
 
 Pages
@@ -35,3 +35,7 @@ The .openai/hosting.json identity belongs to the existing owner-private WardRela
 WARD WALK PRESENTATION REDESIGN — 19 OCTOBER 2026
 Supporting pages now use dist/ward-walk.css and dist/ward-walk.js. The source generator renders a full-viewport architectural environment on every supporting page. Three existing original images progress through short scroll crossfades, with a restrained camera shift and route trace. Cropped hero image shapes and alternating sage/beige sections are replaced by full photographic heroes and one ivory reading material. Module workflow chapters use native scrolling with a sticky numbered introduction on larger screens; mobile is stacked. Hero words/evidence assemble progressively, product rows respond to scrolling, and the closing half-circle draws in the review room. Pause and reduced-motion controls stop decorative motion. No product record or approval changes automatically.
 The new presentation assets are scoped to supporting pages; homepage visual files are unchanged. QA-WARD-WALK.json records 90 route/viewport checks, 27 existing interaction checks, 13 motion/fallback checks, local-link validation and key color-pair contrast ratios. Image-background contrast was also visually reviewed; numeric color-pair ratios alone do not constitute a complete accessibility audit.
+
+HOMEPAGE CONTINUOUS WARD WALK — 19 OCTOBER 2026
+The homepage now has a single fixed photographic environment, moving from the arrival corridor to the supply junction and review room. The full-image hero pairs a large editorial headline with an upright ivory typed-handoff console. Opening evidence, walkthrough, teams and governance share the environment. Products/demo and fit/pilot/FAQ use two consistent ivory reading surfaces with visible image gutters. The closing invitation retains the half-circle over the review-room image. Native scrolling, reversible five-module progression, replay, Pause and system reduced-motion behavior are preserved.
+This revision is scoped through body.home-walk in dist/home-walk.css and dist/home-walk.js. Supporting pages are unchanged from their approved redesign. QA-HOMEPAGE-WALK.json records 42 passing checks, five viewport sizes and 138 local link/asset checks. Current homepage images are in previews/homepage-current-*.png.

@@ -1,0 +1,250 @@
+{
+  "checks": [
+    {
+      "name": "Hero type sequence settles with all three evidence steps",
+      "pass": true
+    },
+    {
+      "name": "Replay restarts progressive reveal",
+      "pass": true
+    },
+    {
+      "name": "Products navigation opens",
+      "pass": true
+    },
+    {
+      "name": "Escape closes menu and restores focus",
+      "pass": true
+    },
+    {
+      "name": "Shared platform navigation opens",
+      "pass": true
+    },
+    {
+      "name": "Walk chapter 1 responds to scroll",
+      "pass": true
+    },
+    {
+      "name": "Walk chapter 2 responds to scroll",
+      "pass": true
+    },
+    {
+      "name": "Walk chapter 3 responds to scroll",
+      "pass": true
+    },
+    {
+      "name": "Walk chapter 4 responds to scroll",
+      "pass": true
+    },
+    {
+      "name": "Walk chapter 3 responds to scroll",
+      "pass": true
+    },
+    {
+      "name": "Walk chapter 2 responds to scroll",
+      "pass": true
+    },
+    {
+      "name": "Walk chapter 1 responds to scroll",
+      "pass": true
+    },
+    {
+      "name": "Module 1 responds to scroll",
+      "pass": true
+    },
+    {
+      "name": "Module 2 responds to scroll",
+      "pass": true
+    },
+    {
+      "name": "Module 3 responds to scroll",
+      "pass": true
+    },
+    {
+      "name": "Module 4 responds to scroll",
+      "pass": true
+    },
+    {
+      "name": "Module 5 responds to scroll",
+      "pass": true
+    },
+    {
+      "name": "Module 4 responds to scroll",
+      "pass": true
+    },
+    {
+      "name": "Module 3 responds to scroll",
+      "pass": true
+    },
+    {
+      "name": "Module 2 responds to scroll",
+      "pass": true
+    },
+    {
+      "name": "Module 1 responds to scroll",
+      "pass": true
+    },
+    {
+      "name": "Module keyboard End selects Supply Report",
+      "pass": true
+    },
+    {
+      "name": "Module keyboard Home selects Supply Desk",
+      "pass": true
+    },
+    {
+      "name": "Ambiguous UOM case blocks action",
+      "pass": true
+    },
+    {
+      "name": "Unproven equivalence stays blocked",
+      "pass": true
+    },
+    {
+      "name": "Local synthetic review retains approval boundary",
+      "pass": true
+    },
+    {
+      "name": "Synthetic review can be reset",
+      "pass": true
+    },
+    {
+      "name": "Review photograph arrives with governance",
+      "pass": true
+    },
+    {
+      "name": "Pause freezes the photographic transition",
+      "pass": true
+    },
+    {
+      "name": "Hero synthetic demo opens its dedicated route",
+      "pass": true
+    },
+    {
+      "name": "Header sign-in points to complete sign-in page",
+      "pass": true
+    },
+    {
+      "name": "Viewport 1440 has no overflow, missing visible images or duplicate IDs",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "broken": [],
+        "duplicateIds": [],
+        "photo": true
+      }
+    },
+    {
+      "name": "Viewport 1024 has no overflow, missing visible images or duplicate IDs",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "broken": [],
+        "duplicateIds": [],
+        "photo": true
+      }
+    },
+    {
+      "name": "Viewport 775 has no overflow, missing visible images or duplicate IDs",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "broken": [],
+        "duplicateIds": [],
+        "photo": true
+      }
+    },
+    {
+      "name": "Viewport 390 has no overflow, missing visible images or duplicate IDs",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "broken": [],
+        "duplicateIds": [],
+        "photo": true
+      }
+    },
+    {
+      "name": "Mobile navigation opens",
+      "pass": true
+    },
+    {
+      "name": "Mobile navigation closes with Escape",
+      "pass": true
+    },
+    {
+      "name": "Viewport 320 has no overflow, missing visible images or duplicate IDs",
+      "pass": true,
+      "detail": {
+        "overflow": false,
+        "broken": [],
+        "duplicateIds": [],
+        "photo": true
+      }
+    },
+    {
+      "name": "Short phone supports manual module selection",
+      "pass": true
+    },
+    {
+      "name": "Reduced motion removes pinning and settles hero",
+      "pass": true
+    },
+    {
+      "name": "All four chapters remain readable in reduced motion",
+      "pass": true
+    },
+    {
+      "name": "No browser errors or failed resource requests",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "passed": 42,
+  "total": 42,
+  "revision": "Homepage continuous Ward Walk \u2014 19 October 2026",
+  "scope": "Homepage presentation only. Supporting page source unchanged.",
+  "viewports": [
+    [
+      1440,
+      1000
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      775,
+      804
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      320,
+      640
+    ]
+  ],
+  "links": {
+    "linksChecked": 138,
+    "unresolved": [],
+    "duplicateIds": 0
+  },
+  "visualReview": [
+    "Desktop and mobile hero",
+    "Arrival statement and evidence sequence",
+    "Four pinned desktop walkthrough chapters",
+    "Product stages at desktop, tablet and tall-phone sizes",
+    "Teams and governance",
+    "Fit and pilot reading surfaces",
+    "Review-room closing invitation"
+  ],
+  "notes": [
+    "Original architectural imagery; fictional spaces.",
+    "Corrected desktop photo-edge coverage and mobile connector-label overlap.",
+    "Lazy images within superseded hidden backgrounds are not counted as visible failed images.",
+    "No physical-device or comprehensive accessibility audit performed."
+  ]
+}
