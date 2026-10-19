@@ -50,22 +50,23 @@
   returnFocus=replay?document.querySelector('#intro-replay'):null;
   scrollTo({top:0,behavior:'instant'});active=true;lastCaption=-1;lastTime=-1;
   root.classList.add('intro-active');root.classList.remove('intro-pending','intro-revealing');lockPage(true);
-  overlay.hidden=false;overlay.style.setProperty('--arrival','0');overlay.style.setProperty('--film-progress','0');
+  overlay.hidden=false;overlay.dataset.playback='loading';overlay.style.setProperty('--arrival','0');overlay.style.setProperty('--film-progress','0');
   video.src=matchMedia('(max-aspect-ratio: 3/4)').matches?'/assets/video/wardrelay-intro-mobile.mp4':'/assets/video/wardrelay-intro.mp4';
   video.muted=true;video.playsInline=true;video.currentTime=0;pause.textContent='Pause';pause.setAttribute('aria-pressed','false');
   // A slow or blocked video must never hold visitors behind the intro.
   readyTimer=setTimeout(()=>finish(true),7000);
-  video.play().then(()=>{clearTimeout(readyTimer);if(active)raf=requestAnimationFrame(tick);}).catch(()=>finish(true));
+  raf=requestAnimationFrame(tick);
+  video.play().then(()=>{clearTimeout(readyTimer);}).catch(error=>{if(error.name==='AbortError'&&pause.getAttribute('aria-pressed')==='true')return;overlay.dataset.playback=error.name;finish(true);});
   if(replay)skip.focus({preventScroll:true});
  }
  video.addEventListener('ended',()=>finish(false));
- video.addEventListener('error',()=>finish(true));
+ video.addEventListener('error',()=>{if(active){overlay.dataset.playback='media-error-'+(video.error?.code||0);finish(true);}});
  video.addEventListener('waiting',()=>{clearTimeout(stallTimer);stallTimer=setTimeout(()=>finish(true),6000);});
- video.addEventListener('playing',()=>{clearTimeout(stallTimer);clearTimeout(readyTimer);});
+ video.addEventListener('playing',()=>{overlay.dataset.playback='playing';clearTimeout(stallTimer);clearTimeout(readyTimer);});
  skip.addEventListener('click',()=>finish(false));
  pause.addEventListener('click',()=>{
   if(video.paused){video.play().catch(()=>finish(true));pause.textContent='Pause';pause.setAttribute('aria-pressed','false');}
-  else{video.pause();clearTimeout(stallTimer);pause.textContent='Play';pause.setAttribute('aria-pressed','true');}
+  else{video.pause();clearTimeout(stallTimer);clearTimeout(readyTimer);overlay.dataset.playback='paused';pause.textContent='Play';pause.setAttribute('aria-pressed','true');}
  });
  overlay.addEventListener('keydown',e=>{
   if(e.key==='Escape'){e.preventDefault();finish(false);}
