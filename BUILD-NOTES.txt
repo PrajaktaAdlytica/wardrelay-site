@@ -14,3 +14,6 @@ Products now form a native-scroll pinned sequence: 01 through 05 and back, on de
 Input paths carry moving dashes with staged scanning states. CTA retains its half-circle and adds an original architectural courtyard composition, evergreen sky, warm rising horizon and perspective floor.
 Motion is implemented with CSS, native scroll events batched through requestAnimationFrame, and IntersectionObserver. No framework/runtime dependencies were required. No smooth-scroll interception or simulated wheel scrolling.
 QA: desktop 1440, annotated tablet 775x804, phone 390, bidirectional module selection, compact content fit, hero typing/replay/pause, four walkthrough chapters, keyboard selection, blocked synthetic cases and reduced-motion fallback.
+
+REVISION 3 — PALETTE RESTRAINT
+Removed scroll-driven color changes and yellow/sage decorative gradients. One warm ivory page surface, neutral stone component surfaces, evergreen ink/console/closing section and orange action/route accents. Existing motion and photography preserved. Functional demo warning/error status colors remain for meaning.
