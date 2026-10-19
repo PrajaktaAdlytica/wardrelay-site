@@ -135,3 +135,36 @@ main,.hero{background:#f4f1e9;background-image:none}
 .cta-symbol,.footer-brand img{filter:brightness(0) invert(96%)}
 .console-command,.relay-check{color:#f2bc90}
 .console-top i{background:#ed6c06}
+/* Full-image arrival; contrast comes from evergreen shade, never a white wash. */
+.hero{background:#123e33;color:#faf7ef}
+.hero-architecture{inset:0;border-radius:0;z-index:0}
+.hero-architecture img{object-position:center 55%;transform:none}
+.hero:before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,rgba(8,35,29,.88) 0%,rgba(8,35,29,.76) 31%,rgba(8,35,29,.32) 59%,rgba(8,35,29,.08) 100%)}
+.hero-copy,.hero-bottom{z-index:2}
+.hero h1,.hero-copy .eyebrow,.hero-description,.hero-note,.hero .scroll-cue{color:#faf7ef}
+.hero h1 em{color:#ffc18a}
+.hero .live-dot{background:#ed6c06}
+.hero .button.secondary{color:#faf7ef;border-color:#faf7ef80;background:#123e3340}
+.hero .button.secondary:hover{background:#123e33b3;border-color:#faf7ef}
+.hero .scroll-circle{border-color:#faf7ef70}
+.hero-disclosure{background:#123e33;color:#e4ece2;border:1px solid #8ba49760}
+.hero-route{z-index:1;opacity:.85}
+.hero-evidence.relay-console{background:#123e33;border-color:#8ba49788;box-shadow:0 20px 60px #08231d35}
+/* A controlled rhythm: ivory content, sage evidence, evergreen product focus. */
+.handoff-intro{background:linear-gradient(180deg,#f4f1e9 0%,#edf0e7 100%)}
+.fragment{background:#faf8f2}
+.fragment.active-evidence{background:#dce7dd;border-color:#718e7b;box-shadow:0 0 0 4px #0e3a3008}
+.products{background:#f4f1e9}
+.module-tab.active{background:#dce7dd;border-color:#bac9bb}
+.module-preview{background:#123e33;color:#faf7ef;border-color:#34594c}
+.module-preview>h3,.module-preview>p,.module-preview-head .eyebrow,.module-preview-foot>span,.module-preview>.micro,.module-preview-foot .text-link{color:#edf2e9}
+.module-preview-head>img{filter:brightness(0) invert(95%)}
+.module-visual{color:#0e3a30}
+.demo-section{background:#dce7dd}
+.teams{background:linear-gradient(180deg,#dce7dd 0%,#f4f1e9 28%)}
+.team-card.feature{background:#dce7dd!important;border-color:#b5c6b6}
+.fit-output{background:#dce7dd;border-color:#b5c6b6}
+.pilot-section{background:#e8e3d8}
+.pilot-scorecard{background:#faf8f2}
+.cta-landscape{background:radial-gradient(ellipse at 50% 100%,#466754 0%,#123e33 65%)}
+@media(max-width:699px){.hero-architecture{inset:0;border-radius:0}.hero-architecture img{object-position:57% center}.hero:before{background:linear-gradient(180deg,rgba(8,35,29,.84) 0%,rgba(8,35,29,.78) 41%,rgba(8,35,29,.25) 68%,rgba(8,35,29,.48) 100%)}.hero-evidence.relay-console{box-shadow:0 15px 40px #08231d40}}
