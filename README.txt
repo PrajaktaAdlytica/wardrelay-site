@@ -31,3 +31,7 @@ QA-MULTIPAGE.json records the route crawl, local-link audit, 27 interaction chec
 
 Publishing
 The .openai/hosting.json identity belongs to the existing owner-private WardRelay site. Keep this site and its audience when publishing updates. The website is a concept preview, not an operating hospital supply product.
+
+WARD WALK PRESENTATION REDESIGN — 19 OCTOBER 2026
+Supporting pages now use dist/ward-walk.css and dist/ward-walk.js. The source generator renders a full-viewport architectural environment on every supporting page. Three existing original images progress through short scroll crossfades, with a restrained camera shift and route trace. Cropped hero image shapes and alternating sage/beige sections are replaced by full photographic heroes and one ivory reading material. Module workflow chapters use native scrolling with a sticky numbered introduction on larger screens; mobile is stacked. Hero words/evidence assemble progressively, product rows respond to scrolling, and the closing half-circle draws in the review room. Pause and reduced-motion controls stop decorative motion. No product record or approval changes automatically.
+The new presentation assets are scoped to supporting pages; homepage visual files are unchanged. QA-WARD-WALK.json records 90 route/viewport checks, 27 existing interaction checks, 13 motion/fallback checks, local-link validation and key color-pair contrast ratios. Image-background contrast was also visually reviewed; numeric color-pair ratios alone do not constitute a complete accessibility audit.
