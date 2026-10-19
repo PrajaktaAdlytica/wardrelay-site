@@ -1,0 +1,59 @@
+/* Daylight photographs with a neutral reading veil, shared across Ward Walk. */
+.home-photo,.walk-photo{max-width:none;filter:brightness(1.1) saturate(.93);backface-visibility:hidden}
+.home-shade,.walk-shade{background:linear-gradient(90deg,rgba(24,29,26,.62) 0%,rgba(24,29,26,.51) 40%,rgba(24,29,26,.09) 70%,transparent 100%)}
+.home-shade:after,.walk-shade:after{display:none!important}
+/* Extra contrast stays near copy; windows, floor and room depth remain sunlit. */
+.home-walk :is(.hero-copy,.walk-copy,.governance-copy),.ward-journey :is(.page-hero-copy,.workflow-intro,.form-story,.auth-scene>div){position:relative;isolation:isolate}
+.home-walk :is(.hero-copy,.walk-copy,.governance-copy):before,.ward-journey :is(.page-hero-copy,.workflow-intro,.form-story,.auth-scene>div):before{content:"";position:absolute;inset:-35px -30px;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 30% 50%,#161d1a4d,transparent 76%);filter:blur(20px)}
+.home-walk :is(.statement,.intro-copy,.teams>h2,.teams>.eyebrow,.teams-foot),.ward-journey .first-narrative :is(.section-intro,.section-lead),.ward-journey .walk-workflow .process-steps article{position:relative;isolation:isolate}
+.home-walk :is(.statement,.intro-copy,.teams>h2,.teams>.eyebrow,.teams-foot):before,.ward-journey .first-narrative :is(.section-intro,.section-lead):before,.ward-journey .walk-workflow .process-steps article:before{content:"";position:absolute;inset:-24px -40px;z-index:-1;pointer-events:none;background:#171d1b66;filter:blur(35px)}
+.ward-journey .walk-workflow .process-steps article:before{inset:30px -32px;background:#171d1b8c}
+.home-walk .teams-foot:before{inset:-18px -10px;filter:blur(22px)}
+.home-walk .suite-strip{background:linear-gradient(90deg,#19221e55,#19221e3b);border-color:#dbe3d97d}
+.home-walk .hero-description,.home-walk .hero-note,.home-walk .intro-copy,.home-walk .walk-copy>p,.home-walk .governance-copy>p,.home-walk .guardrail-list details p,.ward-journey .hero-lead,.ward-journey .concept-note{color:#fffdf5}
+.home-walk .final-cta:before,.ward-journey .page-cta:before{background:radial-gradient(ellipse at 50% 50%,#17221bd9 0%,#17221b66 48%,transparent 72%),linear-gradient(0deg,#0d322cf2,transparent 58%)}
+.home-walk .final-cta :is(h2,p),.ward-journey .page-cta :is(h2,p){text-shadow:0 2px 18px #15231c40}
+.ward-journey :is(.article-header,.demo-page-heading,.not-found){background:linear-gradient(90deg,#171d1b44,transparent 86%)}
+/* Small, paced assembly: real UI elements, no floating decorative particles. */
+.ward-motion-ready .motion-reveal{transition:opacity .7s ease,translate .85s cubic-bezier(.2,.75,.2,1);transition-delay:var(--reveal-delay,0ms)}
+.ward-motion-ready .motion-reveal:not(.motion-entered){opacity:.15;translate:0 22px}
+.ward-motion-ready .motion-entered{translate:0 0}
+.motion-visible .signal-traveller{animation:signal-travel 3.6s linear infinite}
+.signal-traveller{offset-distance:0%;opacity:0}
+@keyframes signal-travel{0%{offset-distance:0%;opacity:0}8%{opacity:1}88%{opacity:1}100%{offset-distance:100%;opacity:0}}
+.motion-visible .map-bridge{position:relative}
+.motion-visible .map-bridge:after{content:"";position:absolute;width:6px;height:6px;border-radius:50%;background:#c35413;top:50%;left:0;animation:bridge-trace 3s ease-in-out infinite}
+@keyframes bridge-trace{0%,12%{translate:0 -50%;opacity:0}25%{opacity:1}75%{opacity:1}90%,100%{translate:28px -50%;opacity:0}}
+.motion-visible :is(.scenario-dates .scheduled,.calendar .scheduled){animation:schedule-trace 5s ease-in-out infinite;animation-delay:calc(var(--trace-index,0)*140ms)}
+@keyframes schedule-trace{0%,12%,65%,100%{box-shadow:inset 0 -2px transparent}30%,46%{box-shadow:inset 0 -2px #c35413;background:#f4dfc5}}
+.motion-visible .approval-lane:before{content:"";display:block;width:30px;height:2px;margin-bottom:10px;background:#c35413;transform-origin:left;animation:review-trace 4.6s ease-in-out infinite;animation-delay:calc(var(--trace-index,0)*500ms)}
+@keyframes review-trace{0%,75%,100%{transform:scaleX(.1);opacity:.3}30%,55%{transform:scaleX(1);opacity:1}}
+.motion-visible .team-symbol svg{stroke-dasharray:650;stroke-dashoffset:650;animation:symbol-draw 2s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes symbol-draw{to{stroke-dashoffset:0}}
+.motion-visible .team-card:nth-child(2) .team-symbol svg{animation-delay:.15s}.motion-visible .team-card:nth-child(3) .team-symbol svg{animation-delay:.3s}
+.module-preview.changing #module-visual>*{animation:instrument-reveal .6s cubic-bezier(.2,.75,.2,1) both}
+@keyframes instrument-reveal{from{opacity:.35;translate:0 12px}to{opacity:1;translate:0 0}}
+.workflow-rail>span{transition:transform .65s cubic-bezier(.2,.75,.2,1)}
+.ward-journey .module-directory-card>img{transition:translate .5s,opacity .5s}.ward-journey .module-directory-card.is-current>img{translate:6px 0}
+.ward-journey .module-directory-card>h3{transition:translate .5s}.ward-journey .module-directory-card.is-current>h3{translate:4px 0}
+:is(.button,.text-link,.quiet-link)>span{transition:transform .25s,translate .25s}
+@media(hover:hover){.text-link:hover>span,.quiet-link:hover>span{translate:4px -2px}.home-walk .button:hover{transform:translateY(-2px);box-shadow:0 6px 20px #273b2924}}
+/* Animate panels only while visible; Pause and system preferences settle every element. */
+:is(.artifact-panel,.scene-card,.fragment-scene,.fit-flow,.module-preview,.team-deck,.final-cta,.page-cta,.relay-console,.workbench,.demo-workspace):not(.motion-visible) *{animation-play-state:paused!important}
+html.motion-off .motion-reveal{opacity:1!important;translate:none!important;transition:none!important}
+html.motion-off :is(.signal-traveller,.map-bridge:after){display:none!important}
+html.motion-off :is(.scenario-dates .scheduled,.calendar .scheduled,.approval-lane:before,.team-symbol svg,#module-visual>*),html.is-hidden-page *{animation-play-state:paused!important}
+html.motion-off .team-symbol svg{stroke-dashoffset:0!important}
+@media(max-width:999px){.home-shade,.walk-shade{background:linear-gradient(90deg,rgba(24,29,26,.57),rgba(24,29,26,.43))}.home-walk .hero-copy:before,.ward-journey .page-hero-copy:before{background:radial-gradient(ellipse at 35% 45%,#171d1b66,transparent 85%)}.home-walk .statement:before,.ward-journey .first-narrative :is(.section-intro,.section-lead):before{background:#171d1b33}}
+@media(max-width:600px){.home-shade,.walk-shade{background:linear-gradient(90deg,rgba(24,29,26,.56),rgba(24,29,26,.46))}.home-walk .suite-strip{background:none}.home-walk .teams-foot:before{background:#171d1b88}.ward-motion-ready .motion-reveal:not(.motion-entered){translate:0 14px}.home-walk .final-cta:before,.ward-journey .page-cta:before{background:linear-gradient(0deg,#0d322cf2,#17221b55 80%)}}
+@media(prefers-reduced-motion:reduce){.motion-reveal{opacity:1!important;translate:none!important;transition:none!important}.signal-traveller,.map-bridge:after{display:none!important}.team-symbol svg{stroke-dashoffset:0!important}.module-directory-card>*{translate:none!important}}
+
+/* Keep fine print legible without darkening the surrounding photograph. */
+.home-walk :is(.hero-copy,.walk-copy,.governance-copy):before,.ward-journey :is(.page-hero-copy,.workflow-intro,.form-story,.auth-scene>div):before{background:linear-gradient(90deg,#171d1b66,#171d1b38);filter:blur(32px)}
+.home-walk .teams>h2:before{background:#171d1b99;filter:blur(28px)}
+.home-walk .teams-foot{color:#214536;background:#faf7efeb;width:fit-content;max-width:100%;margin-left:auto;margin-right:auto;padding:12px 20px;border-radius:4px}
+.home-walk .teams-foot:before{display:none}
+.home-walk .hero-disclosure,.hero-walk-caption>span{color:#214536;background:#faf7efed;padding:10px 14px;border-radius:4px;margin-right:125px}
+.home-walk .scroll-cue,.hero-walk-caption>a{color:#214536;background:#faf7efed;padding:8px 13px;border-radius:4px}
+.home-walk .scroll-circle,.hero-walk-caption>a>span{border-color:#738878}
+@media(max-width:699px){.home-walk .hero-disclosure,.hero-walk-caption>span{margin-right:0;padding:8px 9px}.home-walk .scroll-cue,.hero-walk-caption>a{padding:8px}.home-walk .teams-foot{font-size:12px;padding:14px}}
