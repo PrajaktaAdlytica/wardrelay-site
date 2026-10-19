@@ -1,0 +1,20 @@
+{
+  "errors": [],
+  "viewports": [
+    {
+      "width": 1440,
+      "imageCoversHero": true,
+      "overflow": false
+    },
+    {
+      "width": 775,
+      "imageCoversHero": true,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "imageCoversHero": true,
+      "overflow": false
+    }
+  ]
+}

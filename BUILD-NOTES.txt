@@ -17,3 +17,6 @@ QA: desktop 1440, annotated tablet 775x804, phone 390, bidirectional module sele
 
 REVISION 3 — PALETTE RESTRAINT
 Removed scroll-driven color changes and yellow/sage decorative gradients. One warm ivory page surface, neutral stone component surfaces, evergreen ink/console/closing section and orange action/route accents. Existing motion and photography preserved. Functional demo warning/error status colors remain for meaning.
+
+REVISION 4 — FULL IMAGE HERO AND BALANCED CONTRAST
+Hero image fills the entire section at desktop, tablet and phone widths. A dark evergreen directional shade supports ivory text without a white image wash. Restored controlled sage evidence surfaces, evergreen product focus panel and warm stone pilot surround. Orange remains the action/route accent. Existing motion preserved.
