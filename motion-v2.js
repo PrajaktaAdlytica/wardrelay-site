@@ -88,12 +88,6 @@
   }, { threshold: .35 }); evidenceObserver.observe(evidence);
   const sources = document.querySelector('.fit-flow');
   new IntersectionObserver(entries => sources.classList.toggle('offscreen', !entries[0].isIntersecting)).observe(sources);
-  const chapters = [
-    ['#top',[241,223,195]],['#the-handoff',[231,220,182]],
-    ['#how-it-works',[226,208,175]],['#products',[213,224,192]],
-    ['#demo',[207,221,189]],['#teams',[222,225,191]],
-    ['#governance',[230,212,182]],['#fit',[235,218,184]],['#pilot',[223,210,184]],['#faq',[232,220,193]]
-  ].map(([selector,color]) => ({ el: document.querySelector(selector), color })).filter(x => x.el);
   function renderJourney(now = performance.now()) {
     scheduled = false;
     const viewport = innerHeight, middle = viewport * .5;
@@ -107,15 +101,6 @@
       }
     }
     if (!isStill()) {
-      let color = chapters[0].color;
-      for (let i = 1; i < chapters.length; i++) {
-        const y = chapters[i].el.getBoundingClientRect().top;
-        if (y < viewport) {
-          const t = clamp((viewport - y) / (viewport * .85));
-          color = chapters[i-1].color.map((v,k) => Math.round(v + (chapters[i].color[k] - v) * t));
-        }
-      }
-      document.body.style.setProperty('--journey-color', `rgb(${color.join(',')})`);
       document.querySelectorAll('.handoff-intro,.teams').forEach(el => {
         const p = clamp((viewport - el.getBoundingClientRect().top) / (viewport + el.offsetHeight));
         el.style.setProperty('--scenery-y', `${(p - .5) * 90}px`);
