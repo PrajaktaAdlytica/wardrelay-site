@@ -1,0 +1,26 @@
+{
+  "video": {
+    "desktop": "1920x1080 / 30 fps / 15 seconds / H.264",
+    "portrait": "720x1280 / 30 fps / 15 seconds / H.264",
+    "audio": "silent"
+  },
+  "browser_checks": [
+    "Desktop autoplay and natural completion",
+    "Navigation hidden during intro",
+    "Navigation visible after completion",
+    "Pause, skip and replay",
+    "Page inert during playback and restored afterward",
+    "Portrait composition and controls observed in 390px iframe"
+  ],
+  "implementation_checks": [
+    "Reduced motion bypasses automatic playback",
+    "Autoplay rejection and video error bypass the intro",
+    "Loading and stall watchdogs release page",
+    "Session-scoped playback with manual replay",
+    "Exact hero image used for DOM landing plate"
+  ],
+  "limitations": [
+    "Film uses generated miniature stills with camera animation and cross-dissolves, not simulated 3D characters.",
+    "Mobile verified in a browser iframe, not on a physical device."
+  ]
+}
