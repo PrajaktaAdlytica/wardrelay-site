@@ -1,32 +1,33 @@
-WARDRELAY — WARD WALK HOMEPAGE
+WARDRELAY — WARD WALK WEBSITE
 
-Review scope
-Homepage only. The approved Human Relay identity, Ward Walk palette, fonts and original corridor artwork are included. Remaining pages follow approval of this homepage.
+Current scope
+Homepage plus 29 supporting pages. The approved Human Relay identity, Ward Walk palette, self-hosted fonts and original corridor artwork are included. ROUTE-MANIFEST.json lists all canonical pages and compatibility redirects.
 
-Open the hosted private preview from the accompanying handoff link.
-To run locally: in this folder, run npm start, then open http://127.0.0.1:8787.
-Alternatively run: python3 -m http.server 8787 --bind 127.0.0.1 --directory dist
-No dependency install or build step is needed.
+Local preview
+Run npm start, then open http://127.0.0.1:8787.
+No dependency installation is needed. Pages are static HTML with native JavaScript and CSS motion.
 
-Review the journey
-1. Hero: route drawing, evidence assembly and rounded section transition.
-2. How it works: four scroll chapters across one continuous architectural setting.
-3. Products: all five proposed offers, with interactive product illustrations.
-4. Synthetic demo: clean handoff, ambiguous unit, and blocked substitution cases.
-5. Buyer roles, governance, ERP discovery, hypothetical pilot and validation gates.
-6. Pilot inquiry and sign-in design previews; mobile navigation; footer information.
+Editing
+Supporting page content and shared navigation/footer: source/build_pages.py.
+Regenerate supporting HTML with: python3 source/build_pages.py
+Supporting page styles and behavior: dist/site.css and dist/site.js.
+Homepage: dist/index.html, dist/styles.css, dist/app.js, dist/motion-v2.css and dist/motion-v2.js.
+The generator preserves the homepage visual sections and updates its shared shell. It does not overwrite site.css or site.js.
+
+Pages
+Five product detail pages, product overview, platform, solution overview and three role-specific solution pages, data/integrations discovery, governance, pilot/pricing, evaluation, differentiation, resources and two substantive guides, company, contact, request-pilot, sign-in, password recovery, access help, privacy, terms, accessibility and isolated synthetic demo.
 
 Interaction boundaries
-Forms and sign-in are frontend previews. Entries are not sent or stored. No analytics, payment, real integrations, patient data, clinical guidance or external actions are implemented. Synthetic review feedback is reversible and never grants clinical or purchasing approval.
+Forms, sign-in and password recovery are frontend previews. Entries are not transmitted or persisted. No actual authentication, email, analytics, payment, live integrations, PHI, clinical guidance or external action is implemented. Submit buttons stay disabled until local handlers are attached. Synthetic review feedback is session-local and never grants clinical or purchasing approval. Privacy and terms are clearly identified preview notices, not finalized operating policies.
+
+Synthetic demo
+Ten fictional records with searchable/filterable queue, opened record, dated evidence, attributed local review history, blocked edge cases and a labeled text summary download. No patient records are required. All five proposed modules remain separate hypotheses; the first pilot is bounded to one high-variance item family and the Supply Desk exception board.
 
 Motion and accessibility
-Native scrolling with desktop pinning; mobile uses stacked chapters. Pause motion control and system reduced-motion support. Keyboard-operable product selection, native dialog focus containment, Escape and focus restoration. Images include alt text. Local font licenses are retained in dist/assets/fonts.
+Native scrolling with homepage pinned walkthrough and reversible product progression. Page-specific interactive illustrations, route animation and reveal motion. Pause motion and system reduced-motion support. Keyboard menus, Escape and focus restoration, visible labels and mobile navigation. Local font licenses are in dist/assets/fonts. Automated checks do not constitute a comprehensive accessibility audit.
 
 Verification
-See QA-REPORT.json for responsive checks at 390, 768, 1024 and 1440px; navigation, all five products, all four walk chapters, all three synthetic cases, dialogs, local-only forms and reduced motion. No page errors, broken images, broken anchors or runtime external requests were observed.
+QA-MULTIPAGE.json records the route crawl, local-link audit, 27 interaction checks, tablet checks and homepage regression checks. Screenshots are in previews/. All 30 canonical pages were checked at 390px and 1440px; representative pages also at 775px. Earlier QA files document homepage iterations.
 
-Source
-Editable files are dist/index.html, dist/styles.css and dist/app.js. Assets are local. BUILD-NOTES.txt records creative references and scope. The .openai/hosting.json file is the private hosting identity, not a secret.
-
-REVISION 2
-The current preview includes the requested background/motion revisions. Edit motion-v2.css and motion-v2.js for this layer; index.html contains the revised hero and structural hooks. See QA-REVISION-2.json for additional checks. All original concept and frontend-only boundaries remain.
+Publishing
+The .openai/hosting.json identity belongs to the existing owner-private WardRelay site. Keep this site and its audience when publishing updates. The website is a concept preview, not an operating hospital supply product.

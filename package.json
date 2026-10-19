@@ -1,1 +1,10 @@
-{"name":"wardrelay-homepage","version":"0.1.0","private":true,"description":"WardRelay Ward Walk homepage review","scripts":{"start":"python3 -m http.server 8787 --bind 127.0.0.1 --directory dist"}}
+{
+  "name": "wardrelay-ward-walk",
+  "version": "0.2.0",
+  "private": true,
+  "description": "WardRelay Ward Walk research-stage website and synthetic demo",
+  "scripts": {
+    "start": "python3 -m http.server 8787 --bind 127.0.0.1 --directory dist",
+    "build": "python3 source/build_pages.py"
+  }
+}

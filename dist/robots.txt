@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+# Private concept preview; indexing can be reviewed for a future public launch.
