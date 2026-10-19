@@ -6,3 +6,11 @@ Homepage requirements: category/buyer/hero thesis; complete five proposed module
 Product boundary: all examples synthetic. No PHI, live integration, clinical advice, external action, telemetry, real customer logo or ROI claim. Forms and sign-in remain local demonstrations and transmit no entries.
 Motion approach: native scroll, pinned desktop story, shared room crossfade and route progression, staged cards and diagram traces, small hover motion. Reduced motion shows static content and native stacked chapters. Mobile removes pinning. Pause control remains visible. All approvals require explicit demo interaction.
 Research basis: existing WardRelay research dossier and supplied company brief. No new market claims introduced.
+
+REVISION 2 — USER ANNOTATIONS 1–10
+Removed white image overlays from hero, walkthrough and governance. Photography remains clear inside architectural frames. Hero now reads “One shortage. Every handoff, in view.” and includes a viewport-triggered typed reference followed by source, stock and human-review states, with Replay and Pause.
+Warm background colors interpolate across scroll chapters, with shared ambient lighting and route arcs. Evidence nodes are straight, progressively connected and highlighted. Removed tilted role, source and scorecard treatments.
+Products now form a native-scroll pinned sequence: 01 through 05 and back, on desktop, tablet and taller phones. Tabs, arrow keys and skip remain available. Short screens and reduced motion use unpinned controls.
+Input paths carry moving dashes with staged scanning states. CTA retains its half-circle and adds an original architectural courtyard composition, evergreen sky, warm rising horizon and perspective floor.
+Motion is implemented with CSS, native scroll events batched through requestAnimationFrame, and IntersectionObserver. No framework/runtime dependencies were required. No smooth-scroll interception or simulated wheel scrolling.
+QA: desktop 1440, annotated tablet 775x804, phone 390, bidirectional module selection, compact content fit, hero typing/replay/pause, four walkthrough chapters, keyboard selection, blocked synthetic cases and reduced-motion fallback.

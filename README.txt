@@ -27,3 +27,6 @@ See QA-REPORT.json for responsive checks at 390, 768, 1024 and 1440px; navigatio
 
 Source
 Editable files are dist/index.html, dist/styles.css and dist/app.js. Assets are local. BUILD-NOTES.txt records creative references and scope. The .openai/hosting.json file is the private hosting identity, not a secret.
+
+REVISION 2
+The current preview includes the requested background/motion revisions. Edit motion-v2.css and motion-v2.js for this layer; index.html contains the revised hero and structural hooks. See QA-REVISION-2.json for additional checks. All original concept and frontend-only boundaries remain.

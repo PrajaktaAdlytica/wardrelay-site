@@ -1,0 +1,246 @@
+{
+  "errors": [],
+  "widths": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "arrived": 3,
+      "pauseUnpins": true
+    },
+    {
+      "width": 775,
+      "overflow": false,
+      "arrived": 3,
+      "pauseUnpins": true
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "arrived": 3,
+      "pauseUnpins": true
+    }
+  ],
+  "scrollModules": [
+    {
+      "width": 1440,
+      "expected": 0,
+      "actual": 0,
+      "clip": 0,
+      "queueClip": 0
+    },
+    {
+      "width": 1440,
+      "expected": 1,
+      "actual": 1,
+      "clip": 0,
+      "queueClip": 0
+    },
+    {
+      "width": 1440,
+      "expected": 2,
+      "actual": 2,
+      "clip": 0,
+      "queueClip": 0
+    },
+    {
+      "width": 1440,
+      "expected": 3,
+      "actual": 3,
+      "clip": 0,
+      "queueClip": 0
+    },
+    {
+      "width": 1440,
+      "expected": 4,
+      "actual": 4,
+      "clip": 0,
+      "queueClip": 0
+    },
+    {
+      "width": 1440,
+      "expected": 3,
+      "actual": 3,
+      "clip": 0,
+      "queueClip": 0
+    },
+    {
+      "width": 1440,
+      "expected": 2,
+      "actual": 2,
+      "clip": 0,
+      "queueClip": 0
+    },
+    {
+      "width": 1440,
+      "expected": 1,
+      "actual": 1,
+      "clip": 0,
+      "queueClip": 0
+    },
+    {
+      "width": 1440,
+      "expected": 0,
+      "actual": 0,
+      "clip": 0,
+      "queueClip": 3
+    },
+    {
+      "width": 775,
+      "expected": 0,
+      "actual": 0,
+      "clip": 0,
+      "queueClip": 0
+    },
+    {
+      "width": 775,
+      "expected": 1,
+      "actual": 1,
+      "clip": 0,
+      "queueClip": 0
+    },
+    {
+      "width": 775,
+      "expected": 2,
+      "actual": 2,
+      "clip": 0,
+      "queueClip": 0
+    },
+    {
+      "width": 775,
+      "expected": 3,
+      "actual": 3,
+      "clip": 0,
+      "queueClip": 0
+    },
+    {
+      "width": 775,
+      "expected": 4,
+      "actual": 4,
+      "clip": 0,
+      "queueClip": 0
+    },
+    {
+      "width": 775,
+      "expected": 3,
+      "actual": 3,
+      "clip": 0,
+      "queueClip": 0
+    },
+    {
+      "width": 775,
+      "expected": 2,
+      "actual": 2,
+      "clip": 0,
+      "queueClip": 0
+    },
+    {
+      "width": 775,
+      "expected": 1,
+      "actual": 1,
+      "clip": 0,
+      "queueClip": 0
+    },
+    {
+      "width": 775,
+      "expected": 0,
+      "actual": 0,
+      "clip": 0,
+      "queueClip": 3
+    },
+    {
+      "width": 390,
+      "expected": 0,
+      "actual": 0,
+      "clip": 0,
+      "queueClip": 0
+    },
+    {
+      "width": 390,
+      "expected": 1,
+      "actual": 1,
+      "clip": 0,
+      "queueClip": 0
+    },
+    {
+      "width": 390,
+      "expected": 2,
+      "actual": 2,
+      "clip": 0,
+      "queueClip": 0
+    },
+    {
+      "width": 390,
+      "expected": 3,
+      "actual": 3,
+      "clip": 0,
+      "queueClip": 0
+    },
+    {
+      "width": 390,
+      "expected": 4,
+      "actual": 4,
+      "clip": 8,
+      "queueClip": 0
+    },
+    {
+      "width": 390,
+      "expected": 3,
+      "actual": 3,
+      "clip": 0,
+      "queueClip": 0
+    },
+    {
+      "width": 390,
+      "expected": 2,
+      "actual": 2,
+      "clip": 0,
+      "queueClip": 0
+    },
+    {
+      "width": 390,
+      "expected": 1,
+      "actual": 1,
+      "clip": 0,
+      "queueClip": 0
+    },
+    {
+      "width": 390,
+      "expected": 0,
+      "actual": 0,
+      "clip": 0,
+      "queueClip": 3
+    }
+  ],
+  "hero": [
+    {
+      "width": 1440,
+      "typing": "Trace ORT"
+    },
+    {
+      "width": 775,
+      "typing": "Trace ORT"
+    },
+    {
+      "width": 390,
+      "typing": "Trace ORT"
+    }
+  ],
+  "reducedUnpins": true,
+  "signinVisible": true,
+  "finalMobileReportModuleClip": 0,
+  "sequenceAndInteractions": {
+    "mobileTyping": "Trace O",
+    "mobileSequenceComplete": true,
+    "replayClearsRows": true,
+    "pauseRevealsAllRows": true,
+    "walk0": "0",
+    "walk1": "1",
+    "walk2": "2",
+    "walk3": "3",
+    "tabNavigation": true,
+    "keyboardNavigation": true,
+    "ambiguousBlocked": true,
+    "unsafeCandidateBlocked": true
+  },
+  "note": "Scroll measurements sampled during 600ms entrance animations; final module 05 clipping corrected and rechecked separately."
+}
