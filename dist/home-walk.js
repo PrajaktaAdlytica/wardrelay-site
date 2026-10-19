@@ -7,6 +7,7 @@
  const photos=[...document.querySelectorAll('.home-photo')],junction=photos[1],review=photos[2],route=document.querySelector('.home-route path'),progress=document.querySelector('.home-progress span');
  const reduce=matchMedia('(prefers-reduced-motion: reduce)');
  const clamp=n=>Math.max(0,Math.min(1,n)),ease=n=>n*n*(3-2*n);
+ const camera=window.WardMotion.camera(photos,route);
  let pending=false;
  function render(){
   pending=false;if(document.hidden)return;
@@ -18,12 +19,10 @@
   const bounds=walk.getBoundingClientRect();
   // The arrival view becomes the supply junction at the stock chapter, then holds.
   const anchor=innerWidth>=1000?bounds.top+(walk.offsetHeight-stage.offsetHeight)*.21:document.querySelector('.walk-panel[data-step="1"]').getBoundingClientRect().top;
-  const a=ease(clamp((vh*.55-anchor)/Math.max(vh*.65,1)));
+  const a=ease(clamp((vh*.95-anchor)/Math.max(vh*1.4,1)));
   // The review room arrives at the governance section and remains through the closing CTA.
-  const b=ease(clamp((vh*.9-governance.getBoundingClientRect().top)/Math.max(vh*.75,1)));
-  junction.style.opacity=a;review.style.opacity=b;
-  photos.forEach((photo,i)=>photo.style.transform=`scale(${1.025+p*.045}) translate3d(0,${-p*1.6+i*.12}%,0)`);
-  route.style.strokeDashoffset=String(1-p);
+  const b=ease(clamp((vh*1.25-governance.getBoundingClientRect().top)/Math.max(vh*1.15,1)));
+  camera.set(p,a,b);
  }
  function schedule(){if(!pending){pending=true;requestAnimationFrame(render);}}
  addEventListener('scroll',schedule,{passive:true});addEventListener('resize',schedule,{passive:true});addEventListener('load',schedule,{once:true});document.addEventListener('visibilitychange',schedule);reduce.addEventListener('change',schedule);

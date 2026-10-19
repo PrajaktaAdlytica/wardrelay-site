@@ -1,0 +1,1254 @@
+{
+  "revision": "Daylight and site-wide motion \u2014 19 October 2026",
+  "scope": "Brighter homepage photography; shared neutral overlays, smooth photographic camera and interaction motion on all canonical pages.",
+  "routeChecks": {
+    "rows": [
+      {
+        "width": 1440,
+        "route": "/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/products/supply-desk/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/products/supply-review/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/products/supply-proof/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/products/supply-signal/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/products/supply-report/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/products/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/platform/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/solutions/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/solutions/idn/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/solutions/perioperative/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/solutions/partners/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/data-and-integrations/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/governance/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/pilot-and-pricing/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/evaluation/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/why-wardrelay/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/resources/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/resources/shortage-reconstruction/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/resources/evidence-and-assumptions/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/company/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/request-pilot/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/contact/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/sign-in/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/reset-password/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/access-help/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/privacy/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/terms/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/accessibility/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 1440,
+        "route": "/demo/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/products/supply-desk/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/products/supply-review/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/products/supply-proof/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/products/supply-signal/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/products/supply-report/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/products/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/platform/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/solutions/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/solutions/idn/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/solutions/perioperative/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/solutions/partners/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/data-and-integrations/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/governance/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/pilot-and-pricing/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/evaluation/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/why-wardrelay/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/resources/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/resources/shortage-reconstruction/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/resources/evidence-and-assumptions/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/company/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/request-pilot/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/contact/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/sign-in/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/reset-password/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/access-help/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/privacy/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/terms/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/accessibility/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 775,
+        "route": "/demo/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/products/supply-desk/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/products/supply-review/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/products/supply-proof/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/products/supply-signal/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/products/supply-report/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/products/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/platform/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/solutions/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/solutions/idn/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/solutions/perioperative/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/solutions/partners/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/data-and-integrations/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/governance/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/pilot-and-pricing/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/evaluation/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/why-wardrelay/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/resources/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/resources/shortage-reconstruction/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/resources/evidence-and-assumptions/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/company/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/request-pilot/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/contact/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/sign-in/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/reset-password/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/access-help/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/privacy/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/terms/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/accessibility/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      },
+      {
+        "width": 390,
+        "route": "/demo/",
+        "status": 200,
+        "overflow": false,
+        "h1": 1,
+        "brokenImages": [],
+        "duplicateIds": []
+      }
+    ],
+    "errors": []
+  },
+  "interactions": [
+    {
+      "name": "Supply Desk site ledger",
+      "pass": true
+    },
+    {
+      "name": "Supply Review demand calculation",
+      "pass": true
+    },
+    {
+      "name": "Supply Proof conflict state",
+      "pass": true
+    },
+    {
+      "name": "Supply Signal human decision remains pending",
+      "pass": true
+    },
+    {
+      "name": "Supply Signal reset",
+      "pass": true
+    },
+    {
+      "name": "Supply Report abstains with unknown unit",
+      "pass": true
+    },
+    {
+      "name": "Readiness checklist stays illustrative",
+      "pass": true
+    },
+    {
+      "name": "Ten-record queue",
+      "pass": true
+    },
+    {
+      "name": "UOM case blocked",
+      "pass": true
+    },
+    {
+      "name": "Clinical candidate blocked",
+      "pass": true
+    },
+    {
+      "name": "Materials review preserves approvals",
+      "pass": true
+    },
+    {
+      "name": "Demo search",
+      "pass": true
+    },
+    {
+      "name": "Demo state filter",
+      "pass": true
+    },
+    {
+      "name": "Synthetic report export",
+      "pass": true
+    },
+    {
+      "name": "Contextual prefill",
+      "pass": true
+    },
+    {
+      "name": "Inquiry local-only",
+      "pass": true
+    },
+    {
+      "name": "Password visibility",
+      "pass": true
+    },
+    {
+      "name": "Sign-in preview clears credentials",
+      "pass": true
+    },
+    {
+      "name": "Recovery sends no email",
+      "pass": true
+    },
+    {
+      "name": "No form POST requests",
+      "pass": true
+    },
+    {
+      "name": "Solutions menu",
+      "pass": true
+    },
+    {
+      "name": "Menu escape focus",
+      "pass": true
+    },
+    {
+      "name": "Products mega menu",
+      "pass": true
+    },
+    {
+      "name": "Pause motion",
+      "pass": true
+    },
+    {
+      "name": "System reduced motion",
+      "pass": true
+    },
+    {
+      "name": "Mobile products expand",
+      "pass": true
+    },
+    {
+      "name": "Mobile page navigation",
+      "pass": true
+    }
+  ],
+  "homepage": {
+    "checks": [
+      {
+        "name": "Hero type sequence settles with all three evidence steps",
+        "pass": true
+      },
+      {
+        "name": "Replay restarts progressive reveal",
+        "pass": true
+      },
+      {
+        "name": "Products navigation opens",
+        "pass": true
+      },
+      {
+        "name": "Escape closes menu and restores focus",
+        "pass": true
+      },
+      {
+        "name": "Shared platform navigation opens",
+        "pass": true
+      },
+      {
+        "name": "Walk chapter 1 responds to scroll",
+        "pass": true
+      },
+      {
+        "name": "Walk chapter 2 responds to scroll",
+        "pass": true
+      },
+      {
+        "name": "Walk chapter 3 responds to scroll",
+        "pass": true
+      },
+      {
+        "name": "Walk chapter 4 responds to scroll",
+        "pass": true
+      },
+      {
+        "name": "Walk chapter 3 responds to scroll",
+        "pass": true
+      },
+      {
+        "name": "Walk chapter 2 responds to scroll",
+        "pass": true
+      },
+      {
+        "name": "Walk chapter 1 responds to scroll",
+        "pass": true
+      },
+      {
+        "name": "Module 1 responds to scroll",
+        "pass": true
+      },
+      {
+        "name": "Module 2 responds to scroll",
+        "pass": true
+      },
+      {
+        "name": "Module 3 responds to scroll",
+        "pass": true
+      },
+      {
+        "name": "Module 4 responds to scroll",
+        "pass": true
+      },
+      {
+        "name": "Module 5 responds to scroll",
+        "pass": true
+      },
+      {
+        "name": "Module 4 responds to scroll",
+        "pass": true
+      },
+      {
+        "name": "Module 3 responds to scroll",
+        "pass": true
+      },
+      {
+        "name": "Module 2 responds to scroll",
+        "pass": true
+      },
+      {
+        "name": "Module 1 responds to scroll",
+        "pass": true
+      },
+      {
+        "name": "Module keyboard End selects Supply Report",
+        "pass": true
+      },
+      {
+        "name": "Module keyboard Home selects Supply Desk",
+        "pass": true
+      },
+      {
+        "name": "Ambiguous UOM case blocks action",
+        "pass": true
+      },
+      {
+        "name": "Unproven equivalence stays blocked",
+        "pass": true
+      },
+      {
+        "name": "Local synthetic review retains approval boundary",
+        "pass": true
+      },
+      {
+        "name": "Synthetic review can be reset",
+        "pass": true
+      },
+      {
+        "name": "Review photograph arrives with governance",
+        "pass": true
+      },
+      {
+        "name": "Pause freezes the photographic transition",
+        "pass": true
+      },
+      {
+        "name": "Hero synthetic demo opens its dedicated route",
+        "pass": true
+      },
+      {
+        "name": "Header sign-in points to complete sign-in page",
+        "pass": true
+      },
+      {
+        "name": "Viewport 1440 has no overflow, missing visible images or duplicate IDs",
+        "pass": true,
+        "detail": {
+          "overflow": false,
+          "broken": [],
+          "duplicateIds": [],
+          "photo": true
+        }
+      },
+      {
+        "name": "Viewport 1024 has no overflow, missing visible images or duplicate IDs",
+        "pass": true,
+        "detail": {
+          "overflow": false,
+          "broken": [],
+          "duplicateIds": [],
+          "photo": true
+        }
+      },
+      {
+        "name": "Viewport 775 has no overflow, missing visible images or duplicate IDs",
+        "pass": true,
+        "detail": {
+          "overflow": false,
+          "broken": [],
+          "duplicateIds": [],
+          "photo": true
+        }
+      },
+      {
+        "name": "Viewport 390 has no overflow, missing visible images or duplicate IDs",
+        "pass": true,
+        "detail": {
+          "overflow": false,
+          "broken": [],
+          "duplicateIds": [],
+          "photo": true
+        }
+      },
+      {
+        "name": "Mobile navigation opens",
+        "pass": true
+      },
+      {
+        "name": "Mobile navigation closes with Escape",
+        "pass": true
+      },
+      {
+        "name": "Viewport 320 has no overflow, missing visible images or duplicate IDs",
+        "pass": true,
+        "detail": {
+          "overflow": false,
+          "broken": [],
+          "duplicateIds": [],
+          "photo": true
+        }
+      },
+      {
+        "name": "Short phone supports manual module selection",
+        "pass": true
+      },
+      {
+        "name": "Reduced motion removes pinning and settles hero",
+        "pass": true
+      },
+      {
+        "name": "All four chapters remain readable in reduced motion",
+        "pass": true
+      },
+      {
+        "name": "No browser errors or failed resource requests",
+        "pass": true,
+        "detail": []
+      }
+    ],
+    "errors": [],
+    "passed": 42,
+    "total": 42
+  },
+  "motion": {
+    "checks": [
+      {
+        "name": "Photographs use brighter neutral daylight styling",
+        "pass": true
+      },
+      {
+        "name": "Extra green story overlay removed",
+        "pass": true
+      },
+      {
+        "name": "Background crossfade interpolates rather than snapping",
+        "pass": true,
+        "detail": {
+          "early": 0.214537,
+          "settled": 0.994896
+        }
+      },
+      {
+        "name": "All crossfading images share the same camera transform",
+        "pass": true
+      },
+      {
+        "name": "Pause freezes the camera without a transform reset",
+        "pass": true
+      },
+      {
+        "name": "Source connection has a travelling evidence marker",
+        "pass": true,
+        "detail": {
+          "before": {
+            "x": 483.88323974609375,
+            "y": 572.0707397460938,
+            "width": 5.96136474609375,
+            "height": 5.96142578125
+          },
+          "after": {
+            "x": 548.2198486328125,
+            "y": 541.2236938476562,
+            "width": 5.0721435546875,
+            "height": 5.0721435546875
+          }
+        }
+      },
+      {
+        "name": "Role cards receive staggered entrances",
+        "pass": true
+      },
+      {
+        "name": "Procedure calendar traces existing scheduled slots",
+        "pass": true
+      },
+      {
+        "name": "Calendar animation never changes demand quantities",
+        "pass": true
+      },
+      {
+        "name": "Stock connection includes a moving handoff marker",
+        "pass": true
+      },
+      {
+        "name": "User-driven evidence change animates",
+        "pass": true
+      },
+      {
+        "name": "Pause settles feedback animations",
+        "pass": true
+      },
+      {
+        "name": "Reduced motion keeps all content visible: /",
+        "pass": true,
+        "detail": {
+          "hidden": 0,
+          "looping": 0
+        }
+      },
+      {
+        "name": "Reduced motion keeps all content visible: /products/supply-signal/",
+        "pass": true,
+        "detail": {
+          "hidden": 0,
+          "looping": 0
+        }
+      },
+      {
+        "name": "Reduced motion keeps all content visible: /request-pilot/",
+        "pass": true,
+        "detail": {
+          "hidden": 0,
+          "looping": 0
+        }
+      },
+      {
+        "name": "Reduced motion keeps all content visible: /sign-in/",
+        "pass": true,
+        "detail": {
+          "hidden": 0,
+          "looping": 0
+        }
+      },
+      {
+        "name": "Motion script produces no browser errors",
+        "pass": true,
+        "detail": []
+      }
+    ],
+    "errors": []
+  },
+  "links": {
+    "linksChecked": 3026,
+    "unresolved": []
+  },
+  "verificationNotes": [
+    "90 route/viewport checks across 30 canonical pages at 1440, 775 and 390 pixels.",
+    "42 homepage interaction checks, 27 supporting-page interaction checks and 17 daylight/motion checks passed.",
+    "An old 400ms opacity assertion was updated to wait for the new intentional damped transition to settle; the final chapter reaches full review-image opacity.",
+    "Visually reviewed hero, opening evidence, teams, governance, CTA, product heroes, forms, auth and resource headers.",
+    "No real-device, full performance or comprehensive accessibility audit is claimed."
+  ]
+}
