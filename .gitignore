@@ -1,0 +1,8 @@
+**/node_modules/
+**/.remotion/
+.vercel/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log

@@ -1,0 +1,29 @@
+WARDRELAY — VERCEL DEPLOYMENT
+
+1. Visit https://vercel.com/new and sign in with GitHub.
+2. Import PrajaktaAdlytica/wardrelay-site. Grant Vercel access to this repository if prompted.
+3. Keep Root Directory at the repository root.
+4. Framework Preset: Other.
+5. Build Command: empty (override enabled if needed).
+6. Install Command: empty (override enabled if needed).
+7. Output Directory: dist.
+8. No environment variables are required.
+9. Click Deploy. The root vercel.json already provides these deployment settings.
+10. Check /, /products/, /demo/, /sign-in/ and /request-pilot/. On the homepage, use Watch the intro to replay.
+
+The published output is already included. Vercel must serve dist, not the repository root or source/intro-film.
+
+OPTIONAL CUSTOM DOMAIN
+Open project Settings > Domains and add your domain. Apply the exact DNS records Vercel displays at your registrar. After you choose the final production URL, update the ORIGIN constant in source/build_pages.py and the absolute canonical/Open Graph/sitemap URLs in dist; regenerate the pages and push the updated dist. Current metadata still uses the existing ChatGPT Site URL.
+
+LOCAL EDITING
+Run npm start (requires Python 3), then open http://localhost:8787.
+Run npm run build after editing source/build_pages.py and commit the regenerated dist. Homepage and shared CSS/JS are edited directly in dist.
+
+INTRO VIDEO SOURCE
+See source/intro-film/README.txt. The ready-made desktop and portrait MP4s are in dist/assets/video. Vercel does not need to render them.
+
+SCOPE
+This is a research-stage website and synthetic demonstration. Sign-in is a concept screen; there is no authentication backend. Pilot inquiry forms do not become a live CRM or email service simply by deploying to Vercel. No environment variables or API credentials are needed for the present static preview.
+
+Reference: https://vercel.com/docs/builds
