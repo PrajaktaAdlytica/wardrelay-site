@@ -21,7 +21,7 @@
     rows.forEach(row => row.classList.add('arrived'));
   }
   function playHero() {
-    if (isStill() || !heroVisible || document.hidden) return settleHero();
+    if (isStill() || !heroVisible || document.hidden || document.documentElement.classList.contains("intro-active")) return settleHero();
     clearTimeout(typingTimer); const run = ++sequenceRun;
     consolePanel.classList.add('is-playing'); rows.forEach(row => row.classList.remove('arrived'));
     typed.textContent = ''; let character = 0; const command = 'Trace ORTH-DEMO-01';

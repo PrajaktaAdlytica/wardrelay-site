@@ -1,0 +1,35 @@
+/* Ward Walk film: isolated to the homepage, no navigation inside the movie. */
+html.intro-pending,html.intro-active{overflow:hidden!important}
+.intro-pending .site-header,.intro-active .site-header,.intro-pending .home-progress,.intro-active .home-progress,.intro-pending .motion-control,.intro-active .motion-control{opacity:0!important;visibility:hidden!important;pointer-events:none!important}
+.intro-pending .hero-copy,.intro-active .hero-copy,.intro-pending .hero-evidence,.intro-active .hero-evidence,.intro-pending .hero-bottom,.intro-active .hero-bottom{opacity:0!important}
+.ward-intro[hidden]{display:none!important}
+.ward-intro{position:fixed;inset:0;z-index:10000;overflow:hidden;background:#b9b098;color:#faf7ef;isolation:isolate;opacity:1;transition:opacity .85s cubic-bezier(.22,1,.36,1)}
+.intro-landing{position:absolute;inset:0;overflow:hidden;background:#103d33}
+.intro-landing img{position:absolute;inset:-3%;width:106%;height:106%;max-width:none;object-fit:cover;transform:scale(1.025);object-position:center}
+.intro-landing-shade{position:absolute;inset:0;opacity:var(--arrival,0);background:linear-gradient(90deg,#09291fe8 0%,#09291fb8 40%,#09291f40 84%),linear-gradient(0deg,#09291f30,transparent)}
+.intro-film{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:calc(1 - var(--arrival,0));display:block}
+.intro-legibility{position:absolute;inset:55% 0 0;background:linear-gradient(transparent,#10291dc9);opacity:calc(1 - var(--arrival,0));pointer-events:none}
+.intro-caption{position:absolute;left:clamp(24px,5.5vw,100px);right:24px;bottom:142px;opacity:calc(1 - var(--arrival,0));pointer-events:none}
+.intro-caption small{display:block;font:9px/1.6 Plex,monospace;letter-spacing:.16em;color:#f8d2a4;margin-bottom:14px}
+.intro-caption p{margin:0;font:500 clamp(28px,3.2vw,48px)/1.2 Manrope,sans-serif;letter-spacing:-.04em;max-width:650px;text-wrap:balance}
+.intro-chrome{position:absolute;bottom:max(30px,env(safe-area-inset-bottom));left:clamp(24px,5.5vw,100px);right:clamp(24px,5.5vw,100px);opacity:1;transition:opacity .3s}
+.intro-bottom{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:18px}
+.intro-label{font:9px/1.6 Plex,monospace;letter-spacing:.14em;color:#f2ecdf}
+.intro-controls{display:flex;align-items:center;gap:12px}
+.intro-controls button{font:11px/1.3 Manrope,sans-serif;padding:12px 18px;min-height:44px;cursor:pointer;border:1px solid #faf7ef99;border-radius:999px;color:#faf7ef;background:#163c31b8;backdrop-filter:blur(10px);transition:background .25s,border-color .25s}
+.intro-controls button:hover{background:#1d4e40;border-color:#faf7ef}
+.intro-controls button:focus-visible{outline:3px solid #ffd3a1;outline-offset:4px}
+.intro-progress-track{height:1px;background:#faf7ef55;overflow:hidden}
+.intro-progress-track span{display:block;width:100%;height:100%;background:#ffb875;transform:scaleX(var(--film-progress,0));transform-origin:left}
+.ward-intro.is-exiting{opacity:0;pointer-events:none}
+.home-walk .intro-replay{font:10px/1.5 Plex,monospace;color:#e7e7d8;border:0;border-bottom:1px solid #e7e7d855;background:transparent;padding:8px 0;cursor:pointer;margin-top:12px;min-height:40px;display:block}
+.home-walk .intro-replay:hover{color:#ffc18f;border-color:#ffc18f}
+.intro-revealing .site-header{animation:intro-nav .8s .15s both cubic-bezier(.22,1,.36,1)}
+.intro-revealing .hero-copy,.intro-revealing .hero-evidence,.intro-revealing .hero-bottom{animation:intro-enter .9s .1s both cubic-bezier(.22,1,.36,1)}
+.intro-revealing .hero-evidence{animation-delay:.24s}
+.intro-revealing .hero-bottom{animation-delay:.4s}
+@keyframes intro-nav{from{opacity:0;transform:translateY(-16px)}to{opacity:1;transform:translateY(0)}}
+@keyframes intro-enter{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:600px){.intro-caption{bottom:156px}.intro-bottom{align-items:flex-start;gap:12px}.intro-label{font-size:8px;max-width:130px}.intro-controls{gap:7px}.intro-controls button{padding:12px 13px;font-size:10px}.intro-caption p{font-size:32px;max-width:310px}}
+@media(prefers-reduced-motion:reduce){.ward-intro,.intro-revealing .site-header,.intro-revealing .hero-copy,.intro-revealing .hero-evidence,.intro-revealing .hero-bottom{animation:none!important;transition:none!important}}
+.ward-intro .intro-caption p{color:#fff8ed;text-shadow:0 2px 24px #153c2c55}
