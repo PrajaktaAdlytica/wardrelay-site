@@ -1,0 +1,140 @@
+{
+  "viewports": [
+    {
+      "width": 390,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "brokenImages": []
+    }
+  ],
+  "interactions": [
+    {
+      "name": "product mega menu",
+      "pass": true
+    },
+    {
+      "name": "mega menu escape and focus return",
+      "pass": true
+    },
+    {
+      "name": "module 0",
+      "pass": true
+    },
+    {
+      "name": "module 1",
+      "pass": true
+    },
+    {
+      "name": "module 2",
+      "pass": true
+    },
+    {
+      "name": "module 3",
+      "pass": true
+    },
+    {
+      "name": "module 4",
+      "pass": true
+    },
+    {
+      "name": "module keyboard navigation",
+      "pass": true
+    },
+    {
+      "name": "ambiguous case disables review",
+      "pass": true
+    },
+    {
+      "name": "blocked case disables review",
+      "pass": true
+    },
+    {
+      "name": "manual materials review keeps clinical approvals pending",
+      "pass": true
+    },
+    {
+      "name": "reset review",
+      "pass": true
+    },
+    {
+      "name": "inquiry local-only confirmation",
+      "pass": true
+    },
+    {
+      "name": "dialog escape",
+      "pass": true
+    },
+    {
+      "name": "password visibility",
+      "pass": true
+    },
+    {
+      "name": "signin local-only and clears password",
+      "pass": true
+    },
+    {
+      "name": "motion toggle switches to stacked still story",
+      "pass": true
+    },
+    {
+      "name": "system reduced motion honored",
+      "pass": true
+    },
+    {
+      "name": "mobile menu",
+      "pass": true
+    },
+    {
+      "name": "mobile navigation closes",
+      "pass": true
+    },
+    {
+      "name": "mobile pilot dialog fits",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "walk": [
+    {
+      "step": 0,
+      "active": "0",
+      "room": "0"
+    },
+    {
+      "step": 1,
+      "active": "1",
+      "room": "1"
+    },
+    {
+      "step": 2,
+      "active": "2",
+      "room": "1"
+    },
+    {
+      "step": 3,
+      "active": "3",
+      "room": "2"
+    }
+  ],
+  "brokenAnchors": [],
+  "progressiveEnhancement": {
+    "evidenceVisibleWithoutJavascript": true,
+    "interactiveControlsRequireJavascript": true
+  },
+  "approvedLogoFilesMatched": 14
+}

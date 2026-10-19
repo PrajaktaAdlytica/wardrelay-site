@@ -1,0 +1,8 @@
+WARDRELAY / HOMEPAGE REVIEW V1
+Scope: homepage only. Remaining routes follow homepage approval. Navigation uses meaningful homepage anchors and accessible dialogs; no empty destination pages.
+Brand source: approved Human Relay SVGs and Ward Walk brand kit. Full logo geometry unchanged. Manrope and IBM Plex Mono self-hosted with licenses.
+Reference video: Screen Recording 2026-10-16 at 13.23.15.mov (65.005 sec), reviewed via 20 timestamped frames. Adopted: large-radius section curtains; warm ambient background continuity; curved progress lines; sequential interface assembly. No reference brand, claims, images or interface copied.
+Homepage requirements: category/buyer/hero thesis; complete five proposed modules in original order; source-to-stock-to-assumptions-to-two-reviewer story; synthetic three-case demo; audiences; incumbent comparison; read-only discovery; limitations; hypothetical pricing; validation gate, metric and stop rule; scoped pilot CTA; sign-in entry; privacy/terms draft notices; complete footer.
+Product boundary: all examples synthetic. No PHI, live integration, clinical advice, external action, telemetry, real customer logo or ROI claim. Forms and sign-in remain local demonstrations and transmit no entries.
+Motion approach: native scroll, pinned desktop story, shared room crossfade and route progression, staged cards and diagram traces, small hover motion. Reduced motion shows static content and native stacked chapters. Mobile removes pinning. Pause control remains visible. All approvals require explicit demo interaction.
+Research basis: existing WardRelay research dossier and supplied company brief. No new market claims introduced.
