@@ -11,3 +11,6 @@
 .site-header .menu-toggle{align-items:center;justify-content:center;flex-direction:column;gap:6px}.site-header .menu-toggle span{width:22px;height:1.5px;margin:0;flex-shrink:0;background:var(--forest)}
 html.site-enhanced .inner-page .motion-control{display:flex}
 .inner-page .footer-top h3{font-size:15px;letter-spacing:0}.page-cta{background:linear-gradient(180deg,#123e33bb,#123e33ed 78%,#123e33),url('/assets/images/review.webp') center 55%/cover}.page-cta p{color:#edf1e6}
+/* Company details and funding announcement. */
+.footer-brand address{margin:20px 0 16px;color:#c9d6ca;font:normal 12px/1.7 Manrope,sans-serif}
+.company-address{font:normal clamp(16px,1.7vw,22px)/1.75 Manrope,sans-serif;color:#123e33}
