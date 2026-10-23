@@ -14,3 +14,19 @@ html.site-enhanced .inner-page .motion-control{display:flex}
 /* Company details and funding announcement. */
 .footer-brand address{margin:20px 0 16px;color:#c9d6ca;font:normal 12px/1.7 Manrope,sans-serif}
 .company-address{font:normal clamp(16px,1.7vw,22px)/1.75 Manrope,sans-serif;color:#123e33}
+
+/* Funding announcement: editorial headline with clearly separated pending details. */
+.home-walk .funding-announcement{margin:32px var(--page) 48px;padding:clamp(28px,4vw,64px);display:grid;grid-template-columns:minmax(0,1.2fr) minmax(260px,1fr);align-items:center;gap:clamp(32px,5vw,80px);background:#123e33;border:1px solid #faf7ef30;border-radius:24px;color:#faf7ef}
+.funding-copy .eyebrow{display:flex;align-items:center;gap:10px;margin:0 0 22px;font-size:10px;letter-spacing:.13em;color:#ffba83}
+.funding-dot{width:7px;height:7px;flex:0 0 7px;border-radius:50%;background:currentColor}
+.home-walk .funding-copy h2{margin:0 0 20px;font:500 clamp(32px,3.8vw,56px)/1.08 Manrope,sans-serif;letter-spacing:-.045em;color:#faf7ef}
+.funding-copy .funding-summary{max-width:360px;margin:0 0 24px;font:15px/1.7 Manrope,sans-serif;color:#d4dfcd}
+.funding-link{display:inline-flex;align-items:center;gap:24px;padding:8px 0;font:600 13px/1.5 Manrope,sans-serif;color:#ffba83;border-bottom:1px solid #ffba8366;text-decoration:none;transition:color .2s,border-color .2s}
+.funding-link:hover{color:#faf7ef;border-color:#faf7ef}.funding-link:focus-visible{outline:2px solid #ffba83;outline-offset:6px}
+.funding-details{padding:clamp(24px,3vw,36px);border:1px solid #123e3320;border-radius:16px;background:#faf7ef;color:#123e33}
+.funding-details .funding-status{margin:0 0 24px;font:10px/1.6 Plex,monospace;letter-spacing:.12em;color:#4e665e}
+.funding-details dl{margin:0}.funding-details dl>div{padding:18px 0;border-top:1px solid #123e3326;display:flex;justify-content:space-between;align-items:baseline;gap:20px}
+.funding-details dt{font:13px/1.6 Manrope,sans-serif;color:#4e665e}.funding-details dd{margin:0;font:600 15px/1.6 Manrope,sans-serif;text-align:right;color:#123e33}
+.funding-details .funding-note{margin:16px 0 0;font:12px/1.7 Manrope,sans-serif;color:#4e665e}
+.company-funding{scroll-margin-top:120px}.company-funding .funding-details{max-width:620px;margin-top:32px}
+@media(max-width:760px){.home-walk .funding-announcement{grid-template-columns:1fr;margin-top:24px;margin-bottom:32px;padding:26px;gap:28px;border-radius:20px}.funding-copy .eyebrow{font-size:9px;margin-bottom:18px}.funding-details dl>div{flex-direction:column;gap:4px}.funding-details dd{text-align:left}}
